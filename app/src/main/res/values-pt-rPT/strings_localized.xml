@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"Criar item %1$s"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"Atualizar"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"Este é um campo obrigatório"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"Bem-vindo"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"Explore o SAP BTP SDK para Android com esta aplicação gerada."</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"Começar"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"Guardar"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"Atualizar"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"Eliminar"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"Cancelar"</string>
+
+    <!-- XBUT: Text of the OK button -->
+
+    <!-- XBUT: Text of the Delete button -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"Eliminar"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"Pretende mesmo eliminar o item selecionado?"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"Pretende mesmo eliminar os itens selecionados?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"Atualizar"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"Início"</string>
+
+    <!-- XMIT: Update menu item -->
+
+    <!-- XMIT: Delete menu item -->
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body Text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item Description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"A entrada não é adequada para o tipo de dados."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"Falha na operação de transferência, tente reiniciar a aplicação."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"Falha na operação de criação, tente executá-la novamente mais tarde."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed_detail">"Falha na operação de atualização, atualize os dados locais e tente executá-la novamente mais tarde."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"Falha na operação de aliminação, atualize os dados locais e tente executá-la novamente mais tarde."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"O registo foi carregado no servidor."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The Notification Text -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"Potencial perda de dados"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"Ao sair desta página, não serão guardados nenhuns dados."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"Sair"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"Ficar"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"O carregador da configuração não conseguiu obter dados de configuração."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"O fornecedor de configuração, \"%1$s\", encontrou um erro. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"Falha ao construir o objeto JSON."</string>
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of initial opening of offline store failed -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Title -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Message -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Positive button (navigation occurs) -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Negative button (cancelled navigation) -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"Definições"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"Definições"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"Código de acesso"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"Alterar código de acesso"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"Repor aplicação"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"Limpar definições da aplicação móvel"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <!-- XMSG: The message of reset client -->
+    <!-- XTIT: The title of the logout item -->
+    <string name="logout">"Terminar sessão"</string>
+    <!-- XTIT: The title of the delete registration item -->
+    <string name="delete_registration">"Eliminar registo"</string>
+    <!-- XTIT: The title of a warning dialog -->
+    <string name="delete_registration_warning">"Todas as alterações pendentes associadas a este registo serão removidas. Quer continuar?"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"Registo"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"Carregar registo"</string>
+    <!-- XTIT: The description of a menu item -->
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"Nível de registo predefinido alterado da política de servidor para: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"Nível de registo"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"Escolher nível de registo"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"Nenhum"</string>
+    <!-- XTIT: Log level title -->
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"Erro"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"Aviso"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"Informação"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"Depurar"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"Caminho"</string>
+    <!-- XMSG: Authentication error message -->
+    <!-- XMSG: Authentication progress description -->
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- restrictions -->
+
+    <!-- XMSG: Detailed error description -->
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.notificationphaseset.NotificationPhaseSetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.NotificationPhase" />
+        <variable name="notificationPhase" type="NotificationPhase"/>
+        <variable name="handler" type="com.sap.copy.mdui.notificationphaseset.NotificationPhaseSetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Notifprocessingphase"
+            app:valueText="@{notificationPhase.getOptionalValue(NotificationPhase.notifprocessingphase).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Notifprocessingphasedesc"
+            app:valueText="@{notificationPhase.getOptionalValue(NotificationPhase.notifprocessingphasedesc).toString()}" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"Luo kohde %1$s"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"Päivitä"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"Tämä on pakollinen kenttä"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"Tervetuloa"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"Tutustu SAP BTP SDK for Android -työkaluihin tämän generoidun sovelluksen avulla."</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"Aloita"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"Tallenna"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"Päivitä"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"Poista"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"Peruuta"</string>
+
+    <!-- XBUT: Text of the OK button -->
+
+    <!-- XBUT: Text of the Delete button -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"Poista"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"Haluatko todella poistaa valitun rivin?"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"Haluatko todella poistaa valitut rivit?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"Päivitä"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"Aloitussivu"</string>
+
+    <!-- XMIT: Update menu item -->
+
+    <!-- XMIT: Delete menu item -->
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body Text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item Description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"Syöttö ei sovi tietotyyppiin."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"Lataustapahtuma epäonnistui, yritä käynnistää sovellus uudelleen."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"Luontitapahtuma epäonnistui, yritä suorittaa se myöhemmin uudelleen."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed_detail">"Päivitystapahtuma epäonnistui, päivitä paikalliset tiedot ja yritä suorittaa se myöhemmin uudelleen."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"Poistotapahtuma epäonnistui, päivitä paikalliset tiedot ja yritä suorittaa se myöhemmin uudelleen."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"Lokia ladataan palvelimeen."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The Notification Text -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"Potentiaalinen tietojen häviäminen"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"Jos poistut tältä sivulta, mitään tietoja ei tallenneta."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"Poistu"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"Jää"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"Konfiguraation lataaja epäonnistui hakemaan konfigurointitietoja."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"Konfiguraation tarjoajassa, \"%1$s\", on tapahtunut virhe. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"JSON-objektin muodostus epäonnistui."</string>
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of initial opening of offline store failed -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Title -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Message -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Positive button (navigation occurs) -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Negative button (cancelled navigation) -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"Asetukset"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"Asetukset"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"Pääsykoodi"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"Muuta pääsykoodia"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"Palauta sovellus"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"Tyhjennä sovelluksen asetukset"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <!-- XMSG: The message of reset client -->
+    <!-- XTIT: The title of the logout item -->
+    <string name="logout">"Kirjaudu ulos"</string>
+    <!-- XTIT: The title of the delete registration item -->
+    <string name="delete_registration">"Poista rekisteröinti"</string>
+    <!-- XTIT: The title of a warning dialog -->
+    <string name="delete_registration_warning">"Kaikki tähän rekisteröintiin liittyvät synkronoimattomat odottavat muutokset poistetaan. Haluatko jatkaa?"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"Lokiin kirjaaminen"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"Lataa loki"</string>
+    <!-- XTIT: The description of a menu item -->
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"Oletuslokitaso muutettu palvelinkäytännön mukaan seuraavaksi: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"Lokitaso"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"Valitse lokitaso"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"Ei mikään"</string>
+    <!-- XTIT: Log level title -->
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"Virhe"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"Varoitus"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"Tiedot"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"Virheenpoisto"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"Polku"</string>
+    <!-- XMSG: Authentication error message -->
+    <!-- XMSG: Authentication progress description -->
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- restrictions -->
+
+    <!-- XMSG: Detailed error description -->
+
+</resources>

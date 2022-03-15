@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"Kurti %1$s elementą"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"Naujinti"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"Tai būtinas laukas"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"Sveiki!"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"Apžiūrėkite „SAP BTP SDK for Android“ naudodami šią sugeneruotą programą."</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"Pradėti"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"Įrašyti"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"Naujinti"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"Naikinti"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"Atšaukti"</string>
+
+    <!-- XBUT: Text of the OK button -->
+
+    <!-- XBUT: Text of the Delete button -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"Naikinti"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"Ar tikrai norite panaikinti pasirinktą elementą?"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"Ar tikrai norite naikinti pasirinktus elementus?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"Atnaujinti"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"Pagrindinis puslapis"</string>
+
+    <!-- XMIT: Update menu item -->
+
+    <!-- XMIT: Delete menu item -->
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body Text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item Description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"Pagal duomenų tipą įvestis netinkama."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"Atsisiuntimo operacija nepavyko. Pabandykite iš naujo paleisti programą."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"Kūrimo operacija nepavyko. Bandykite ją vykdyti dar kartą vėliau."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed_detail">"Atnaujinimo operacija nepavyko. Atnaujinkite vietinius duomenis ir bandykite ją vykdyti dar kartą vėliau."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"Naikinimo operacija nepavyko. Atnaujinkite vietinius duomenis ir bandykite ją vykdyti dar kartą vėliau."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"Žurnalas įkeltas į serverį."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The Notification Text -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"Galimybė prarasti duomenis"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"Išėjus iš šio puslapio, nebus įrašyti jokie duomenys."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"Išeiti"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"Likti"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"Konfigūracijos įkėlimo priemonei nepavyko gauti konfigūracijos duomenų."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"Konfigūracijos teikėjas, „%1$s“, susidūrė su klaida. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"Nepavyko sukurti JSON objekto."</string>
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of initial opening of offline store failed -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Title -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Message -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Positive button (navigation occurs) -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Negative button (cancelled navigation) -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"Parametrai"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"Parametrai"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"Prieigos kodas"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"Keisti prieigos kodą"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"Iš naujo nustatyti programą"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"Valyti programos parametrus"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <!-- XMSG: The message of reset client -->
+    <!-- XTIT: The title of the logout item -->
+    <string name="logout">"Atsijungti"</string>
+    <!-- XTIT: The title of the delete registration item -->
+    <string name="delete_registration">"Naikinti registraciją"</string>
+    <!-- XTIT: The title of a warning dialog -->
+    <string name="delete_registration_warning">"Visi nesinchronizuoti laukinatys keitimai, susiję su šia programa, bus pašalinti. Ar norite tęsti?"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"Prisijungiama"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"Įkelti žurnalą"</string>
+    <!-- XTIT: The description of a menu item -->
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"Numatytasis žurnalo lygis pakeistas iš serverio politikos į: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"Žurnalo lygis"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"Pasirinkti žurnalo lygį"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"Nėra"</string>
+    <!-- XTIT: Log level title -->
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"Klaida"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"Įspėjimas"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"Informacija"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"Derinti"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"Kelias"</string>
+    <!-- XMSG: Authentication error message -->
+    <!-- XMSG: Authentication progress description -->
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- restrictions -->
+
+    <!-- XMSG: Detailed error description -->
+
+</resources>

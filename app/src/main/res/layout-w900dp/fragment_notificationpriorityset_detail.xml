@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.notificationpriorityset.NotificationPrioritySetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.NotificationPriority" />
+        <variable name="notificationPriority" type="NotificationPriority"/>
+        <variable name="handler" type="com.sap.copy.mdui.notificationpriorityset.NotificationPrioritySetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Maintprioritytype"
+            app:valueText="@{notificationPriority.getOptionalValue(NotificationPriority.maintprioritytype).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Maintpriority"
+            app:valueText="@{notificationPriority.getOptionalValue(NotificationPriority.maintpriority).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Maintprioritydesc"
+            app:valueText="@{notificationPriority.getOptionalValue(NotificationPriority.maintprioritydesc).toString()}" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="com.sap.copy.databinding.simplepropertyformcell.Converter"/>
+        <import type="android.view.View"/>
+        <variable name="notificationType" type="com.sap.cloud.android.odata.eam_ntf_create_entities.NotificationType"/>
+    </data>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+        <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/create_update_notificationtype"
+                    android:orientation="vertical">
+
+                <com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/usermustbenotifiedid"
+                        android:tag="UserMustBeNotified"
+                        app:key="UserMustBeNotified"
+                        app:value="@={Converter.toString(usermustbenotifiedid, notificationType.userMustBeNotified, notificationType.userMustBeNotified)}">
+                </com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell>
+                <com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/notifiedusercanbedeletedid"
+                        android:tag="NotifiedUserCanBeDeleted"
+                        app:key="NotifiedUserCanBeDeleted"
+                        app:value="@={Converter.toString(notifiedusercanbedeletedid, notificationType.notifiedUserCanBeDeleted, notificationType.notifiedUserCanBeDeleted)}">
+                </com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell>
+                <com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/usercanbenotifiedid"
+                        android:tag="UserCanBeNotified"
+                        app:key="UserCanBeNotified"
+                        app:value="@={Converter.toString(usercanbenotifiedid, notificationType.userCanBeNotified, notificationType.userCanBeNotified)}">
+                </com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell>
+                <com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/descriptionid"
+                        android:tag="Description"
+                        android:maxLength="@{20}"
+                        app:key="Description"
+                        app:value="@={notificationType.description}">
+                </com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell>
+                <com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prioritytypeid"
+                        android:tag="PriorityType"
+                        android:maxLength="@{2}"
+                        app:key="PriorityType"
+                        app:value="@={notificationType.priorityType}">
+                </com.sap.cloud.mobile.fiori.formcell.SimplePropertyFormCell>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

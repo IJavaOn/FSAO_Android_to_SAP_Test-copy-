@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"Creare poziție %1$s"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"Actualizare"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"Acest câmp este obligatoriu"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"Bun venit"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"Explorați SAP BTP SDK pentru Android cu această aplicație generată."</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"Să începem"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"Salvare"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"Actualizare"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"Ștergere"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"Anulare"</string>
+
+    <!-- XBUT: Text of the OK button -->
+
+    <!-- XBUT: Text of the Delete button -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"Ștergere"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"Sigur doriți să ștergeți poziția selectată?"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"Sigur doriți să ștergeți pozițiile selectate?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"Împrospătare"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"Pagină inițială"</string>
+
+    <!-- XMIT: Update menu item -->
+
+    <!-- XMIT: Delete menu item -->
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body Text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item Description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"Intrare nu este adecvată pentru tip de date."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"Operație de descărcare nereușită. Încercați să relansați aplicația."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"Operație de creare nereușită. Încercați să o executați din nou."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed_detail">"Operație de actualizare nereușită. Împrospătați datele locale și încercați să o efectuați din nou mai târziu."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"Operație de ștergere nereușită. Împrospătați datele locale și încercați să o efectuați din nou mai târziu."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"Jurnal este încărcat pe server."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The Notification Text -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"Pierdere de date potențială"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"Părăsind această pagină, nicio dată nu va fi salvată."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"Părăsire"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"Rămânere"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"Încărcătorul de configurare nu a reușit să obține date de configurare."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"Furnizorul de configurare, \"%1$s\", a întâmpinat o eroare. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"Eroare la crearea obiectului JSON."</string>
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of initial opening of offline store failed -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Title -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Message -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Positive button (navigation occurs) -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Negative button (cancelled navigation) -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"Setări"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"Setări"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"Cod de acces"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"Modificare cod de acces"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"Resetare aplicație"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"Resetare setări aplicație"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <!-- XMSG: The message of reset client -->
+    <!-- XTIT: The title of the logout item -->
+    <string name="logout">"Deconectare"</string>
+    <!-- XTIT: The title of the delete registration item -->
+    <string name="delete_registration">"Ștergere înregistrare"</string>
+    <!-- XTIT: The title of a warning dialog -->
+    <string name="delete_registration_warning">"Toate modificările în așteptare nesincronizate asociate cu această aplicație vor fi eliminate. Doriți să continuați?"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"Jurnalizare"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"Încărcare jurnal"</string>
+    <!-- XTIT: The description of a menu item -->
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"Nivel de jurnal implicit modificat din politică de server în: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"Nivel de jurnal"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"Alegeți nivel de jurnal"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"Nimic"</string>
+    <!-- XTIT: Log level title -->
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"Eroare"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"Avertizare"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"Info"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"Depanare"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"Cale"</string>
+    <!-- XMSG: Authentication error message -->
+    <!-- XMSG: Authentication progress description -->
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- restrictions -->
+
+    <!-- XMSG: Detailed error description -->
+
+</resources>

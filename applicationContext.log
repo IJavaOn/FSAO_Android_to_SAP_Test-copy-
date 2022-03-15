@@ -1,0 +1,17 @@
+   ______________________________
+ / \                             \.
+|   | This log file was created  |.
+ \_ | by the Wizard, it contains |.
+    | the configuration data     |.
+    | used for the application   |.
+    | generation.                |.
+    |                            |.
+    | It shouldn't be edited     |.
+    | manually, changing it      |.
+    | won't affect the generated |.
+    | sample.                    |.
+    |   _________________________|___
+    |  /                            /.
+    \_/____________________________/.
+
+{"projectName":"copy","projectLocation":"C:\\Users\\SHANISHA\\AndroidStudioProjects\\copy","projectNamespace":"com.sap.copy","accountName":"SAP Mobile Services","serviceURL":"https://mobile-a7c995ebb.hana.ondemand.com/","serverURL":"https://mobile-a7c995ebb.hana.ondemand.com/","applicationID":"com.sap.copy","applicationSecurityConfig":"OAUTH","jsonPath":null,"senderID":null,"serverKey":null,"isLogEnabled":true,"isLogUploadEnabled":true,"SAPSDKLocation":"MAVEN_LOCAL","useDiscoveryService":false,"generateJavaCode":true,"generateOnlineApp":true,"isUsageIncluded":false,"isCrashReportIncluded":false,"isMultipleUserMode":false}

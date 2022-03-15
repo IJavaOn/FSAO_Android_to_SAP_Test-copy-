@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.technicalobjectset.TechnicalObjectSetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.TechnicalObject" />
+        <variable name="technicalObject" type="TechnicalObject"/>
+        <variable name="handler" type="com.sap.copy.mdui.technicalobjectset.TechnicalObjectSetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectType"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.technicalObjectType).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectNumber"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.technicalObjectNumber).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Room"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.room).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectTypeDesc"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.technicalObjectTypeDesc).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="AbcIndic"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.abcIndic).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ObjectType"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.objectType).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ObjectTypeDescription"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.objectTypeDescription).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TecObjNoLeadingZeros"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.tecObjNoLeadingZeros).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlannerGroup"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.plannerGroup).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectDescription"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.technicalObjectDescription).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CatalogProfile"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.catalogProfile).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="AuthGroup"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.authGroup).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Category"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.category).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CategoryDescription"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.categoryDescription).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="MainWorkCenter"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.mainWorkCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Manufacturer"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.manufacturer).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ModelNumber"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.modelNumber).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedBy"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.createdBy).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedOn"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.createdOn).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ChangedBy"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.changedBy).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ChangedOn"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.changedOn).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="WorkCenter"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.workCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="MaintenancePlant"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.maintenancePlant).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlanningPlant"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.planningPlant).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlantSection"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.plantSection).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Location"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.location).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="SortField"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.sortField).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="BusinessArea"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.businessArea).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ControllingArea"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.controllingArea).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CostCenter"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.costCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CompanyCode"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.companyCode).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Division"
+            app:valueText="@{technicalObject.getOptionalValue(TechnicalObject.division).toString()}" />
+
+        <RelativeLayout
+            style="@style/FioriButton.Flat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:onClick="@{handler::onNavigationClickedToTechnicalObjectThumbnailSet_Thumbnail}"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/link_label_to_thumbnail"
+                style="@style/FioriButton.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:paddingLeft="16dp"
+                android:text="TechnicalObjectThumbnailSet" />
+
+            <Button
+                android:id="@+id/link_button_to_thumbnail"
+                style="@style/FioriButton.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:drawableStart="@drawable/ic_arrow_forward_black_24dp"
+                android:enabled="true"
+                android:visibility="invisible"
+                android:focusable="false" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

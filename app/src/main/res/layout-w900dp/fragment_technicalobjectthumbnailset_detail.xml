@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.technicalobjectthumbnailset.TechnicalObjectThumbnailSetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.TechnicalObjectThumbnail" />
+        <variable name="technicalObjectThumbnail" type="TechnicalObjectThumbnail"/>
+        <variable name="handler" type="com.sap.copy.mdui.technicalobjectthumbnailset.TechnicalObjectThumbnailSetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectType"
+            app:valueText="@{technicalObjectThumbnail.getOptionalValue(TechnicalObjectThumbnail.technicalObjectType).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="TechnicalObjectNumber"
+            app:valueText="@{technicalObjectThumbnail.getOptionalValue(TechnicalObjectThumbnail.technicalObjectNumber).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="MimeType"
+            app:valueText="@{technicalObjectThumbnail.getOptionalValue(TechnicalObjectThumbnail.mimeType).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="FileName"
+            app:valueText="@{technicalObjectThumbnail.getOptionalValue(TechnicalObjectThumbnail.fileName).toString()}" />
+
+    </LinearLayout>
+</layout>

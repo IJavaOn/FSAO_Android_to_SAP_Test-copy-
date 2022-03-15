@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"%1$s आइटम बनाएं"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"अपडेट करें"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"यह अनिवार्य फ़ील्ड है"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"स्वागत है"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"इस जेनरेट किए गए ऐप के साथ एंड्रॉइड के लिए SAP BTP SDK का अन्वेषण करें"</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"शुरू करें"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"सहेजें"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"अपडेट करें"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"हटाएं"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"रद्द करें"</string>
+
+    <!-- XBUT: Text of the OK button -->
+
+    <!-- XBUT: Text of the Delete button -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"हटाएं"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"क्या आप वाकई चयनित आइटम को हटाना चाहते हैं?"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"क्या आप वास्तव में चयनित आइटम हटाना चाहते हैं?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"रीफ़्रेश करें"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"होम"</string>
+
+    <!-- XMIT: Update menu item -->
+
+    <!-- XMIT: Delete menu item -->
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body Text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item Description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"इनपुट डेटा प्रकार के लिए उपयुक्त नहीं है."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"डाउनलोड कार्य विफ़ल रहा, कृपया एप्लिकेशन को फ़िर से चालू करने का प्रयास करें."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"निर्माण कार्य विफ़ल रहा, कृपया इसे बाद में फ़िर से निष्पादित करने का प्रयास करें."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed_detail">"अपडेट कार्य विफ़ल रहा, कृपया स्थानीय डेटा रीफ़्रेश करें और बाद में इसे फ़िर से निष्पादित करने का प्रयास करें."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"अपडेट कार्य विफ़ल रहा, कृपया स्थानीय डेटा रीफ़्रेश करें और बाद में इसे फ़िर से निष्पादित करने का प्रयास करें."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"लॉग सर्वर पर अपलोड किया गया है."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The title of the delete dialog -->
+
+    <!-- XTIT: The Notification Text -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"संभावित डेटा हानि"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"इस पेज को छोड़ने से कोई भी डेटा सहेजा नहीं जाएगा."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"छोड़ दें"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"बने रहें"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"कॉन्फ़िगरेशन लोडर कॉन्फ़िगरेशन डेटा प्राप्त करने में विफ़ल रहा."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"कॉन्फ़िगरेशन प्रदाता, \"%1$s\", त्रुटि का सामना करना पड़ा. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"JSON ऑब्जेक्ट बनाने में विफ़ल."</string>
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of initial opening of offline store failed -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Title -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Message -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Positive button (navigation occurs) -->
+
+    <!-- XMSG: Offline AlertDialog before navigation - Negative button (cancelled navigation) -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"सेटिंग"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"सेटिंग"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"पासकोड"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"पासकोड बदलें"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"एप्लिकेशन रीसेट करें"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"ऐप सेटिंग क्लियर करें"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <!-- XMSG: The message of reset client -->
+    <!-- XTIT: The title of the logout item -->
+    <string name="logout">"लॉगआउट करें"</string>
+    <!-- XTIT: The title of the delete registration item -->
+    <string name="delete_registration">"पंजीकरण हटाएं"</string>
+    <!-- XTIT: The title of a warning dialog -->
+    <string name="delete_registration_warning">"इस पंजीकरण से जुड़े सभी असंबद्ध लंबित परिवर्तन निकाल दिए जाएंगे. क्या आप जारी रखना चाहते हैं?"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+    <!-- XTIT: The title of a menu item -->
+
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"लॉगिंग"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"लॉग अपलोड करें"</string>
+    <!-- XTIT: The description of a menu item -->
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"सर्वर नीति से डिफ़ॉल्ट लॉग स्तर बदल गया: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"लॉग स्तर"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"लॉग स्तर चुनें"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"कोई नहीं"</string>
+    <!-- XTIT: Log level title -->
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"त्रुटि"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"चेतावनी देना"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"जानकारी"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"डीबग"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"पथ"</string>
+    <!-- XMSG: Authentication error message -->
+    <!-- XMSG: Authentication progress description -->
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+
+    <!-- XMSG: Detailed error description -->
+    <!-- restrictions -->
+
+    <!-- XMSG: Detailed error description -->
+
+</resources>

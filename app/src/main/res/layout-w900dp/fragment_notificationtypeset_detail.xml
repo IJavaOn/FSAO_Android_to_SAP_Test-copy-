@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.notificationtypeset.NotificationTypeSetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.NotificationType" />
+        <variable name="notificationType" type="NotificationType"/>
+        <variable name="handler" type="com.sap.copy.mdui.notificationtypeset.NotificationTypeSetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Type_"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.type_).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="UserMustBeNotified"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.userMustBeNotified).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="NotifiedUserCanBeDeleted"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.notifiedUserCanBeDeleted).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="UserCanBeNotified"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.userCanBeNotified).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Description"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.description).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PriorityType"
+            app:valueText="@{notificationType.getOptionalValue(NotificationType.priorityType).toString()}" />
+
+    </LinearLayout>
+</layout>

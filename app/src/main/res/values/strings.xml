@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="application_name">copy</string>
+    <string name="eset_contactset">ContactSet</string>
+    <string name="eset_datemonitorset">DateMonitorSet</string>
+    <string name="eset_longtextset">LongTextSet</string>
+    <string name="eset_malfunctioneffectset">MalfunctionEffectSet</string>
+    <string name="eset_mynotificationset">MyNotificationSet</string>
+    <string name="eset_noteset">NoteSet</string>
+    <string name="eset_notificationheaderset">NotificationHeaderSet</string>
+    <string name="eset_notificationimagetypecollection">NotificationImageTypeCollection</string>
+    <string name="eset_notificationphaseset">NotificationPhaseSet</string>
+    <string name="eset_notificationpriorityset">NotificationPrioritySet</string>
+    <string name="eset_notificationtypechangeset">NotificationTypeChangeSet</string>
+    <string name="eset_notificationtypeset">NotificationTypeSet</string>
+    <string name="eset_pmuserdetailsset">PMUserDetailsSet</string>
+    <string name="eset_plantsectionvhset">PlantSectionVHSet</string>
+    <string name="eset_tofacetfilteritemset">TOFacetFilterItemSet</string>
+    <string name="eset_tofacetfilterset">TOFacetFilterSet</string>
+    <string name="eset_technicalobjectset">TechnicalObjectSet</string>
+    <string name="eset_technicalobjectthumbnailset">TechnicalObjectThumbnailSet</string>
+    <string name="eset_texttemplateset">TextTemplateSet</string>
+    <string name="title_activity_navigate">Map</string>
+</resources>

@@ -1,0 +1,16 @@
+{
+  "projectInfo": {
+    "projectName": "copy",
+    "createdDate": "Friday, February 25, 2022 at 5:27:37 PM",
+    "regenerateProxyClassDate": ""
+  },
+  "cloudApplication": {
+    "cloudApplicationId": "com.sap.copy",
+    "destinations": [
+      {
+        "id": "noticreate"
+      }
+    ]
+  },
+  "msServerConfigurationName": "SAP Mobile Services"
+}

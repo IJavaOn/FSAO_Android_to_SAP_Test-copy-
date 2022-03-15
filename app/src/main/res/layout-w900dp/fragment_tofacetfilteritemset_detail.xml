@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.tofacetfilteritemset.TOFacetFilterItemSetActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.eam_ntf_create_entities.TOFacetFilterItem" />
+        <variable name="tOFacetFilterItem" type="TOFacetFilterItem"/>
+        <variable name="handler" type="com.sap.copy.mdui.tofacetfilteritemset.TOFacetFilterItemSetDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ListKey"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.listKey).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ItemKey"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.itemKey).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ObjectTypeDescription"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.objectTypeDescription).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Room"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.room).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="AbcIndic"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.abcIndic).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CategoryDescription"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.categoryDescription).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="MainWorkCenter"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.mainWorkCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlannerGroup"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.plannerGroup).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CatalogProfile"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.catalogProfile).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="AuthGroup"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.authGroup).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Manufacturer"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.manufacturer).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ItemText"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.itemText).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ModelNumber"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.modelNumber).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedBy"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.createdBy).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ItemCount"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.itemCount).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedOn"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.createdOn).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ChangedBy"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.changedBy).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ChangedOn"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.changedOn).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="WorkCenter"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.workCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="MaintenancePlant"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.maintenancePlant).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlanningPlant"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.planningPlant).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="PlantSection"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.plantSection).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Location"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.location).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="SortField"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.sortField).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="BusinessArea"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.businessArea).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ControllingArea"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.controllingArea).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CostCenter"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.costCenter).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CompanyCode"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.companyCode).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Division"
+            app:valueText="@{tOFacetFilterItem.getOptionalValue(TOFacetFilterItem.division).toString()}" />
+
+    </LinearLayout>
+</layout>
