@@ -15,7 +15,10 @@
         android:label="@string/application_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mdui.Test2">
+        <activity android:name=".mdui.TestUI"></activity>
+        <activity
+            android:name=".mdui.Test2"
+            android:parentActivityName=".mdui.EntitySetListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".mdui.EntitySetListActivity" />
