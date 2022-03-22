@@ -3,22 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#0F124C"
     android:layout_height="match_parent"
     tools:context=".mdui.WorkOrder">
-
-
 
 
     <TextView
         android:id="@+id/textView11"
 
-        android:layout_width="399dp"
-        android:layout_height="35dp"
-        android:text="WorkOrder"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:textColor="@color/black"
+        android:layout_width="397dp"
+        android:layout_height="43dp"
         android:background="#4351CA"
+        android:gravity="center"
+        android:text="WorkOrder"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -30,29 +29,32 @@
         android:id="@+id/navback1"
         android:layout_width="60dp"
         android:layout_height="38dp"
+        android:background="#07000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.017"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
 
     <TableLayout
         android:id="@+id/tabla_cuerpo"
-        android:layout_width="387dp"
-        android:layout_height="318dp"
+        android:layout_width="362dp"
+        android:layout_height="599dp"
+        android:background="#ffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.036">
+        app:layout_constraintVertical_bias="0.195">
 
         <TableRow
             android:id="@+id/tableRow1"
-            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/createdby"
@@ -79,20 +81,20 @@
             <TextView
                 android:id="@+id/textView123"
                 android:layout_width="120dp"
-                android:textColor="@color/black"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:gravity="center"
                 android:layout_height="match_parent"
                 android:background="@color/onboarding_blue_50"
-                android:text="Details" />
+                android:gravity="center"
+                android:text="Details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
 
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow2"
-            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/textView01"
@@ -111,11 +113,11 @@
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <ImageView
-                android:gravity="center"
-                android:clickable="true"
                 android:id="@+id/navigate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
                 android:padding="5dp"
                 android:src="@drawable/navigate1"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -124,9 +126,9 @@
 
         <TableRow
             android:id="@+id/tableRow3"
-            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/textView001"
@@ -145,11 +147,11 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
 
             <ImageView
-                android:gravity="center"
-                android:clickable="true"
                 android:id="@+id/navigate2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
                 android:padding="5dp"
                 android:src="@drawable/navigate1"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -159,9 +161,9 @@
 
         <TableRow
             android:id="@+id/tableRow4"
-            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/textView12"
@@ -180,11 +182,11 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
 
             <ImageView
-                android:gravity="center"
-                android:clickable="true"
                 android:id="@+id/navigate3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
                 android:padding="5dp"
                 android:src="@drawable/navigate1"
                 android:textAppearance="?android:attr/textAppearanceMedium" />

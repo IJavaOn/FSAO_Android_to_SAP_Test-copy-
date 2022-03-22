@@ -6,11 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".mdui.HomePage">
 
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:background="#4351CA"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="658dp"
+        android:background="#0F124C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
     <ImageButton
         android:id="@+id/imageButtoncrt"
         android:layout_width="90dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/onboarding_blue_30"
+
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +43,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.269"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:background="@drawable/edit_round"/>
 
     <TextView
         android:id="@+id/textViewNoti"
@@ -26,7 +52,7 @@
         android:layout_height="63dp"
         android:gravity="center"
         android:text="Create Notification"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageButtoncrt"
@@ -40,20 +66,21 @@
         android:layout_width="90dp"
         android:layout_height="60dp"
         android:layout_marginTop="4dp"
-        android:backgroundTint="@color/onboarding_blue_30"
+
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toEndOf="@+id/imageButtoncrt"
         app:layout_constraintTop_toTopOf="@+id/imageButtoncrt"
-        app:srcCompat="@drawable/notifications" />
+        app:srcCompat="@drawable/notifications"
+        android:background="@drawable/edit_round"/>
 
     <TextView
         android:id="@+id/textView8"
         android:gravity="center"
         android:layout_width="116dp"
         android:layout_height="63dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="My Notifications"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewNoti"
@@ -63,34 +90,21 @@
         app:layout_constraintTop_toBottomOf="@+id/mynoti"
         app:layout_constraintVertical_bias="0.511" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="401dp"
-        android:layout_height="52dp"
-        android:background="#4351CA"
-        android:gravity="center"
-        android:text="Home"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+
 
     <ImageButton
         android:id="@+id/work"
         android:layout_width="90dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/onboarding_blue_30"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.198"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.476"
-        app:srcCompat="@drawable/workorder" />
+        app:srcCompat="@drawable/workorder"
+        android:background="@drawable/edit_round"/>
 
     <TextView
         android:id="@+id/textView10"
@@ -98,7 +112,7 @@
         android:layout_height="42dp"
         android:text="WorkOrder"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/work"
@@ -111,11 +125,11 @@
         android:id="@+id/test"
         android:layout_width="90dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/onboarding_blue_30"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
-
+        android:background="@drawable/edit_round"
         app:layout_constraintStart_toEndOf="@+id/work"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.126"
@@ -127,7 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="232dp"
         android:text="Test"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/test"
@@ -141,7 +155,7 @@
         android:layout_width="175dp"
         android:layout_height="60dp"
         android:text="TextView"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -154,6 +168,7 @@
         android:id="@+id/test2"
         android:layout_width="90dp"
         android:layout_height="60dp"
+        android:background="@drawable/edit_round"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.475"
@@ -161,7 +176,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.715"
         app:srcCompat="@drawable/test2"
-        android:backgroundTint="@color/onboarding_blue_30"/>
+        />
 
     <TextView
         android:id="@+id/textView20"
@@ -169,7 +184,7 @@
         android:layout_height="30dp"
         android:text="Test2"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/test2"
@@ -177,6 +192,30 @@
         app:layout_constraintStart_toStartOf="@+id/test2"
         app:layout_constraintTop_toBottomOf="@+id/test2"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/TestUI"
+        android:layout_width="377dp"
+        android:layout_height="58dp"
+        android:background="@drawable/edit_round"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/ic_flash_on_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="TestUI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TestUI"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/TestUI" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
