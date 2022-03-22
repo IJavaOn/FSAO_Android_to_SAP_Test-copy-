@@ -20,6 +20,7 @@ public class HomePage extends AppCompatActivity {
     private ImageButton work;
     private ImageButton test;
     private ImageButton test2;
+    private ImageButton TestUI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class HomePage extends AppCompatActivity {
         work = findViewById(R.id.work);
         test = findViewById(R.id.test);
         test2 = findViewById(R.id.test2);
+        TestUI = findViewById(R.id.TestUI);
 
         //date formatted value to dis
         Calendar calendar= Calendar.getInstance();
@@ -84,6 +86,15 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomePage.this, Test2.class);
+                startActivity(intent);
+            }
+        });
+
+        //TestUI Button
+        TestUI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomePage.this, TestUI.class);
                 startActivity(intent);
             }
         });
